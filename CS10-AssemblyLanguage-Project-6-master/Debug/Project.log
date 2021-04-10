@@ -1,0 +1,8 @@
+﻿  Assembling AddTwo.asm...
+AddTwo.asm(7): warning A4011: multiple .MODEL directives found : .MODEL ignored
+AddTwo.asm(77): error A2110: COMMENT delimiter expected
+AddTwo.asm(76): error A2006: undefined symbol : L1
+AddTwo.asm(79): warning A6004: procedure argument or local not referenced : array1Pointer
+AddTwo.asm(79): warning A6004: procedure argument or local not referenced : array2Pointer
+AddTwo.asm(79): warning A6004: procedure argument or local not referenced : arrayLength
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets(69,5): error MSB3721: The command "ml.exe /c /nologo /Sg /Zi /Fo"Debug\AddTwo.obj" /Fl"Project.lst" /I "c:\Irvine" /W3 /errorReport:prompt  /TaAddTwo.asm" exited with code 1.
